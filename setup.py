@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="appwrite_annotations",  # Name of your package on PyPI
-    version="0.2.0",  # Initial release version
+    version="0.5.0",  # Initial release version
     description="A Python library for defining and annotating class attributes with custom metadata for appwrite.",
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
