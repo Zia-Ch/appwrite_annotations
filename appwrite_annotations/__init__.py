@@ -15,19 +15,27 @@ Modules:
 """
 
 from .base import Attribute
-from .string_attribute import StringAttribute
-from .integer_attribute import IntegerAttribute
-from .float_attribute import FloatAttribute
-from .boolean_attribute import BooleanAttribute
 from .datetime_attribute import DatetimeAttribute
+from .boolean_attribute import BooleanAttribute
+from .email_attribute import EmailAttribute
+from .enum_attribute import EnumAttribute
 from .exceptions import AttributeValidationError
+from .float_attribute import FloatAttribute
+from .integer_attribute import IntegerAttribute
+from .ip_address_attribute import IPAddressAttribute
+from .relationship_attribute import RelationshipAttribute
+from .string_attribute import StringAttribute
 
 __all__ = [
     "Attribute",
-    "StringAttribute",
-    "IntegerAttribute",
-    "FloatAttribute",
+    "AttributeValidationError",
     "BooleanAttribute",
     "DatetimeAttribute",
-    "AttributeValidationError"
+    "EmailAttribute",
+    "EnumAttribute",
+    "FloatAttribute",
+    "IntegerAttribute",
+    "IPAddressAttribute",
+    "RelationshipAttribute",
+    "StringAttribute",
 ]
